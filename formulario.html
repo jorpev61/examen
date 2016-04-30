@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+		footer{
+			color: green;
+			background-color: #AA3939;
+		}
+		nav a{
+			/*background-color: #550000;*/ /*este color esta en el main.css*/
+			/*color: white;*/
+		}
+		</style>
+		<title>Formulario</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="<link href='https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One|Roboto' rel='stylesheet' type='text/css'>">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="keywords" content="UPSE, Universidad Peninsula, Santa Elena, Ecuador">
+		<meta name="description" content="Universidad de la Península de Santa Elena">
+		<meta name="author" content="Jorge Perero">
+	</head>
+	<body>
+		<header>
+			<a href="index.html" id="logo">
+				<h1>
+					CINE - CAFÉ
+				</h1>
+				<h2>¡Lo mejor en cines!</h2>
+			</a>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Locales</a></li>
+					<li><a href="peliculas.html">Películas</a></li>
+					<li><a href="formulario.html" class="selected">Formulario</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="wrapper">
+			<section id="primary">
+				<form action="i.php" method="post">
+					<p>
+						<label for="username">Película</label>
+						<input id="username" name="username" type="text">
+					</p>
+					<p>
+						<label for="password">Local</label>
+						<input id="password" name="password" type="password">
+											</p>
+					<p>
+						<label for="confirm_password">Número de entrada</label>
+						<input id="username" name="username" type="text">					
+					</p>
+					<p>
+						<label for="confirm_password">Número de entrada</label>
+						<input id="username" name="username" type="text">					
+					</p>
+					<p>
+						<label for="confirm_password">Nombre del tarjeta habiente</label>
+						<input id="username" name="username" type="text">					
+					</p>
+					<p>
+						<label for="confirm_password">N° de tarjeta</label>
+						<input id="username" name="username" type="text">					
+					</p>
+					<p>
+						<label for="confirm_password">Precio</label>
+						<input id="username" name="username" type="text">					
+					</p>
+					<p>
+						<input type="submit" value="Comprar">
+					</p>
+				</form>
+				<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+			</section>
+			<section id="secondary">
+					<img src="img/cine1.jpg">
+					<h1>Contáctenos</h1>
+					<p>Vía principal La Libertad - Santa Elena</p>
+					<ul class="contact-info">
+						<li class="phone">
+							<a href="tel:+59342123456">+59342123456</a>
+						</li>
+						<li class="mail">
+							<a href="mailto:jorpev@hotmail.com">jorpev85@hotmail.com</a>	
+						</li>	
+						<li class="twitter">
+							<a href="https://twitter.com/intent/tweet?screen_name=jorpev">@jorpev</a>
+						</li>
+					</ul>	
+			</section>
+			<footer>
+				<a href="https://twitter.com/UPSE_ec">
+					<img class="social-icon" src="img/twitter-wrap.png" alt="UPSE LOGO">
+				</a>
+				<a href="https://twitter.com/upseecuador">
+					<img class="social-icon" src="img/facebook-wrap.png" alt="UPSE LOGO">
+				</a>
+				<p>&copy;2016 JPerero</p>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/app.js" type="text/javascript"></script>
+	</body>
+</html>
